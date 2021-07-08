@@ -1,0 +1,9 @@
+name: run-tests
+on: [push]
+jobs:
+  test:
+    name: Run hello world
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run script
+        run: bash hello-world.sh
