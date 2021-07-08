@@ -4,4 +4,4 @@ RUN apk update
 RUN apk add openrc
 RUN apk add nginx
 
-CMD["nginx", "-d", "off"]
+CMD["nginx", "-g", "daemon off"]
